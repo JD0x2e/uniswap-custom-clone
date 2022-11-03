@@ -1,11 +1,10 @@
 import React from "react";
 const coins = require("../coinList.json");
 
-function CurrencyField({ tokenName, balance, setCoin, setContract, getContract }) {
+function CurrencyField({ tokenName, balance, getBalance }) {
   const changeCoin = (e) => {
     const coinObj = coins.find((coin) => coin.symbol === e.target.value);
-    setContract(getContract());
-    setCoin(coinObj);
+    getBalance(coinObj);
   };
 
   return (
