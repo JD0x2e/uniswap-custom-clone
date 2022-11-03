@@ -3,8 +3,8 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import { GearFill } from "react-bootstrap-icons";
 import PageButton from "./components/PageButton";
-import ConnectButton from "./components/ConnectButton";
 import ConfigModal from "./components/ConfigModal";
+import ConnectButton from "./components/ConnectButton";
 import CurrencyField from "./components/CurrencyField";
 import coinsJson from "./coinList.json";
 import { CurrencyAmount, TradeType, Percent } from "@uniswap/sdk-core";
@@ -53,6 +53,7 @@ function App() {
 
       // const contract1 = getCoin1Contract();
       // const contract2 = getCoin2Contract();
+
       setCoin1Contract(getCoin1Contract());
       setCoin2Contract(getCoin2Contract());
 
