@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #e3eef3;
+  background-color: #333;
   min-height: 100vh;
 }
 
@@ -38,10 +38,10 @@ body {
 }
 
 .connectButton {
-  background-color: rgb(253, 234, 241) !important;
+  background-color: rgb(255, 255, 255) !important;
   border-radius: 16px !important;
   border: 1px solid #fff !important;
-  color: rgb(213, 0, 102) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .connectButtonContainer {
@@ -65,7 +65,7 @@ body {
 }
 
 .swapContainer {
-  background-color: rgb(203, 231, 240);
+  background-color: rgb(140, 140, 140);
   width: 440px;
   height: 350px;
   margin: 0 auto;
@@ -99,7 +99,7 @@ body {
   border-radius: 20px;
 }
 .currencyInput:hover {
-  border-color: #65cdee !important;
+  border-color: #007497 !important;
   border: 1px solid;
 }
 ::placeholder {
@@ -157,7 +157,7 @@ body {
   font-size: 24px;
   color: #fff;
   border-radius: 20px;
-  background-color: #dd2f81;
+  background-color: #000000;
   cursor: pointer;
 }
 
