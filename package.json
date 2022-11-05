@@ -33,6 +33,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://jamesbachini.com/misc/uni",
   "browserslist": {
     "production": [
       ">0.2%",
